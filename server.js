@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const cookieSession = require("cookie-session");
-
+const apiRouter = require('./apiRouter');
 const app = express();
 
 app.use(cors());
